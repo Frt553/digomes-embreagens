@@ -39,6 +39,10 @@
 .brand-strip .container{display:flex;flex-wrap:wrap;align-items:center;gap:18px 36px;justify-content:space-between}
 .brand-strip p{margin:0;color:#fff;font:900 .82rem/1.3 var(--display);text-transform:uppercase;letter-spacing:.02em;max-width:38ch}
 .brand-strip p span{color:var(--yellow)}
-.brand-chips{display:flex;flex-wrap:wrap;gap:10px 24px}
-.brand-chips span{color:#d8d5c9;font-weight:800;font-size:.92rem;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+.brand-chips{display:flex;flex-wrap:wrap;align-items:center;gap:24px 34px}
+.brand-chips img{height:24px;width:auto;opacity:.85;transition:opacity .2s}
+.brand-chips img:hover{opacity:1}
+.hero-highlight{display:inline-flex;flex-direction:column;gap:2px;background:var(--yellow);color:var(--ink);padding:12px 20px;margin:20px 0 4px}
+.hero-highlight strong{font:900 1.05rem/1.25 var(--display);text-transform:uppercase;letter-spacing:-.01em}
+.hero-highlight span{font-size:.78rem;font-weight:700}
 @media(max-width:900px){.brand-strip .container{justify-content:center;text-align:center}.brand-strip p{max-width:none}.brand-chips{justify-content:center}}
