@@ -4,3 +4,5 @@ node_modules/
 images/IMG_*.jpg
 Thumbs.db
 .DS_Store
+.serena/
+digomesfotoscertas/
