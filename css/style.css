@@ -45,3 +45,5 @@
 .hero-highlight{display:inline-flex;flex-direction:column;gap:2px;background:var(--yellow);color:var(--ink);padding:12px 20px;margin:20px 0 4px}
 .hero-highlight strong{font:900 1.05rem/1.25 var(--display);text-transform:uppercase;letter-spacing:-.01em}
 .hero-highlight span{font-size:.78rem;font-weight:700}
+.storefront-banner{line-height:0;background:var(--ink)}
+.storefront-banner img{width:100%;height:auto;display:block}
